@@ -5,5 +5,5 @@ Base image ubuntu with python
 Run local:
 
 ```
-docker run --rm ghcr.io/oldtyt/docker-ubuntu-python
+docker run --rm -ti --entrypoint bash ghcr.io/oldtyt/docker-ubuntu-python
 ```
